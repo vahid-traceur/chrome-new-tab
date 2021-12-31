@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    background: black;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.drive-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: fit-content;
+    height: 40px;
+    background-color: black;
+    z-index: 5;
+    padding: 12px;
+    font-size: 15px;
+    color: white;
+}
+
+.drive-btn a {
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+.drive-btn a:visited {
+    color: white;
+
+}
